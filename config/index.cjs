@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'JN8u01RBE83a1Q_3aufqXVRn8WczTJ1CPudt0ExFKN8',
+      useTemplateId: '049OXkA7t12bRXdIGyB9vEVNlOec0p4aOWP5rrvAwrI',
       
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
@@ -31,28 +31,28 @@ const USER_CONFIG = {
       
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '小宝', year: '1997', date: '08-10',
-        },
+        //{
+        //  type: '*生日', name: '小宝', year: '1997', date: '08-10',
+        //},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '小宝', year: '1997', date: '09-11',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '07-04',
-        },
-        {
-          type: '节日', name: '在一起', year: '2023', date: '05-13',
-        },
+        //{
+        //  type: '生日', name: '小宝', year: '1997', date: '09-11',
+        //},
+        //{
+        //  type: '节日', name: '相识纪念日', year: '2022', date: '07-04',
+        //},
+        //{
+        //  type: '节日', name: '在一起', year: '2023', date: '05-13',
+        //},
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-05-13' },
         // 阳历生日
-        { keyword: 'wx_birthday', date: '1997-09-11'},
+        { keyword: 'wx_birthday_0', date: '1997-09-11'},
         // 阴历生日
-        { keyword: 'wx_*birthday', date: '1997-08-10'},
+        { keyword: 'wx_birthday_1', date: '1997-08-10'},
         // 初相识
         { keyword: 'meet_day', date: '2022-07-04'}
       ],
