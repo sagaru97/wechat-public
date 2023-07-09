@@ -12,7 +12,10 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'b80cbb0413d50f4c16dee4960ef444fd',
-
+  
+  PROVINCE: '江苏',
+  CITY: '南京',
+  
   USERS: [
     {
       // 想要发送的人的名字
@@ -21,9 +24,6 @@ const USER_CONFIG = {
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '4X76r2436xKmLW2GF0LU43JZWv_6FQKsZF53_q72lR4',
-      
-      PROVINCE: '江苏',
-      CITY: '南京',
       
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
