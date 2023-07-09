@@ -18,13 +18,14 @@ const USER_CONFIG = {
   CITY: '南京',
   
   USERS: [
+    // 宝
     {
       // 想要发送的人的名字
-      name: '元宝',
+      name: '宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'VnIrrrmleqr-Z0eD1XDoX3l-vJXyIGZQWaqAFOelqIo',
+      useTemplateId: '2a4YR1XSfUXdVmaKqakGi7e0-NBSGvqZRAAvHlhM904',
       
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-11',
@@ -33,10 +34,34 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '元宝', year: '1997', date: '08-10',
+          type: '*生日', name: '媛宝', year: '1997', date: '08-10',
         },
         {
-          type: '生日', name: '元宝', year: '1997', date: '09-11',
+          type: '生日', name: '媛宝', year: '1997', date: '09-11',
+        },
+      ],
+    },
+    
+    // self
+    {
+      // 想要发送的人的名字
+      name: 'gyh',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '2a4YR1XSfUXdVmaKqakGi7e0-NBSGvqZRAAvHlhM904',
+      
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '09-11',
+      horoscopeDateType: '今日',
+
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '媛宝', year: '1997', date: '08-10',
+        },
+        {
+          type: '生日', name: '媛宝', year: '1997', date: '09-11',
         },
       ],
     },
