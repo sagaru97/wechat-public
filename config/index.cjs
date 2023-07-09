@@ -38,8 +38,10 @@ const USER_CONFIG = {
         {
           type: '生日', name: '元宝', year: '1997', date: '09-11',
         },
+      ],
     },
   ],
+ 
   CUSTOMIZED_DATE_LIST: [
         // 在一起的日子
         { keyword: 'together_day', date: '2023-05-13' },
