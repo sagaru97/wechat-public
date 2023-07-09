@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'b80cbb0413d50f4c16dee4960ef444fd',
 
-  PROVINCE: '江苏',
-  CITY: '南京',
+  MAX_PUSH_ONE_MINUTE: 5,
+  SLEEP_TIME: 65000，
 
   USERS: [
     {
@@ -24,8 +24,14 @@ const USER_CONFIG = {
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '4WemQsx5Km222PG-bUvA7GsM7D21aIYnQDmQN5ixfk0',
+      
+      PROVINCE: '江苏',
+      CITY: '南京',
+      
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
+      horoscopeDateType: '今日',
+      
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
