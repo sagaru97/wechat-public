@@ -49,6 +49,12 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-05-13' },
+        // 阳历生日
+        { keyword: 'wx_birthday', date: '1997-09-11'},
+        // 阴历生日
+        { keyword: 'wx_*birthday', date: '1997-08-10'},
+        // 初相识
+        { keyword: 'meet_day', date: '2022-07-04'}
       ],
     },
   ],
