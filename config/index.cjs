@@ -24,13 +24,13 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '_KURT0P6KUvTFjr-SeDAajXL8YK5IkiHmRQBOnjwJJc',
+      useTemplateId: 'rDJof9P5PahEnqZqL2RwJkJ6D--eBL9jP3zFGYn_Hs4',
       
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-11',
       horoscopeDateType: '今日',
       
-      festivals: [
+      FESTIVALS: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '小宝', year: '1997', date: '08-10',
@@ -47,19 +47,19 @@ const USER_CONFIG = {
         },
       ],
       // 我们在一起已经有xxxx天了的配置
-      CUSTOMIZED_DATE_LIST: [
-        // 在一起的日子
-        { keyword:'love_day', date:'2022-05-13' },
-        // 阳历生日
-        { keyword:'wx_birthday_1', date:'1997-09-11'},
-        // 阴历生日
-        { keyword:'wx_birthday_0', date:'1997-08-10'},
-        // 初相识
-        { keyword:'meet_day', date:'2022-07-04'}
-      ],
+      
     },
   ],
-
+  CUSTOMIZED_DATE_LIST: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-05-13' },
+        // 阳历生日
+        { keyword: 'birthday_1', date: '1997-09-11'},
+        // 阴历生日
+        { keyword: 'birthday_0', date: '1997-08-10'},
+        // 初相识
+        { keyword: 'meet_day', date: '2022-07-04'}
+  ],
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'NoYisOmp6cBCyjsx7A4damnZZ6__K1DkmIZ3Xg7Cs14',
