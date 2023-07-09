@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
+      id: 'oEHGM6OnMYjdFBZJ-V1iS_98xnTc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'FGdRD5h0CC2jaYuIpj33GF39bKJHMvytScXkKKY7sNE',
       
