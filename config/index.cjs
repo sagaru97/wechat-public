@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'rDJof9P5PahEnqZqL2RwJkJ6D--eBL9jP3zFGYn_Hs4',
+      useTemplateId: 'uGwbvTVBDGb2dlfn5gBSqFdEIIR-LQr7LpReLzaBog8',
       
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-11',
@@ -33,11 +33,11 @@ const USER_CONFIG = {
   ],
   CUSTOMIZED_DATE_LIST: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-05-13' },
+        { keyword: 'together_day', date: '2023-05-13' },
         // 阳历生日
-        { keyword: 'birthday_1', date: '1997-09-11'},
+        { keyword: 'wx_birthday_1', date: '1997-09-11'},
         // 阴历生日
-        { keyword: 'birthday_0', date: '1997-08-10'},
+        { keyword: 'wx_birthday_0', date: '1997-08-10'},
         // 初相识
         { keyword: 'meet_day', date: '2022-07-04'}
   ],
