@@ -13,9 +13,6 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'b80cbb0413d50f4c16dee4960ef444fd',
 
-  MAX_PUSH_ONE_MINUTE: 5,
-  SLEEP_TIME: 65000，
-
   USERS: [
     {
       // 想要发送的人的名字
@@ -23,7 +20,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oEHGM6N5IbfpU_A1sYBgwS5531rY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '	4X76r2436xKmLW2GF0LU43JZWv_6FQKsZF53_q72lR4',
+      useTemplateId: '4X76r2436xKmLW2GF0LU43JZWv_6FQKsZF53_q72lR4',
       
       PROVINCE: '江苏',
       CITY: '南京',
