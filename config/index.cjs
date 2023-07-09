@@ -28,26 +28,7 @@ const USER_CONFIG = {
       
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-11',
-      horoscopeDateType: '今日',
-      
-      FESTIVALS: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '小宝', year: '1997', date: '08-10',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '小宝', year: '1997', date: '09-11',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '07-04',
-        },
-        {
-          type: '节日', name: '在一起', year: '2023', date: '05-13',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      
+      horoscopeDateType: '今日'
     },
   ],
   CUSTOMIZED_DATE_LIST: [
